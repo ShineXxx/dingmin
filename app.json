@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sfwebview/sfwebview",
+    "pages/con_detail/con_detail",
+    "pages/acc_detail/acc_detail"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  }
+}

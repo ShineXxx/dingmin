@@ -1,0 +1,87 @@
+.bg-blue {
+  background-color: #802B16;
+}
+
+.tipImg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  display: none;
+  background-color: #802B16;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.tipImg .weui_icon_info_circle:before {
+  color: #fff;
+  padding-right: 2px;
+  font-size: 20px;
+}
+
+.errorMes .weui_msg_desc {
+  text-align: center;
+  word-break: break-all;
+}
+
+/**
+ * 网络友好页面的展示
+ */
+.tipsMes .icon {
+  font-size: 90px;
+  color: #802B16;
+}
+
+.tipsMes .weui_icon_area {
+  margin-bottom: 0;
+}
+
+.tipsMes {
+  min-height: 100%;
+  position: fixed;
+  z-index: 2000000;
+  background: #eee;
+  width: 100%;
+  top: 0;
+}
+
+.succShow .weui_icon_area {
+  margin-bottom: 0;
+}
+
+.succShow .icon-38 {
+  color: #802B16;
+  font-size: 90px;
+}
+
+.icon-38 {
+  color: #802B16;
+}
+
+.bg-blue:not(.weui_btn_disabled):active {
+  background-color: #802B16;
+}
+
+.weui_icon_waiting:before {
+  color: #802B16;
+}
+
+.weui_btn_dialog.primary {
+  color: #802B16;
+}
+
+.bg-blue:active:not(.weui_btn_disabled) {
+  background-color: #802B16;
+}
+
+#__vconsole .vc-switch {
+  padding: 0 !important;
+  width: 20px;
+  height: 20px;
+  border-radius: 50% !important;
+  background: #999 !important;
+  opacity: 0.6;
+}

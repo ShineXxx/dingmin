@@ -1,0 +1,5 @@
+<view>
+    <web-view id="web-view-1" 
+    src="{{domain}}/Wechat2SFDC/OAuth/DingPreOAuth.aspx?authCode={{authCode}}&sourceid={{sourceid}}" 
+    onMessage="onmessage"></web-view>
+</view>
