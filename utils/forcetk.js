@@ -351,6 +351,10 @@ function retrieve(objtype, id, fieldlist, callback, error){
 }
 function init(){
     let res = dd.getStorageSync({ key: localKey });
+    if(res.data==null||res.data.contextStr==null||res.data.contextStr.sessionId==null||res.data.contextStr.sessionId==''){
+        Base.GetContext()
+        return;
+    }
     // context = JSON.parse(res.data.contextStr);
     var context=res.data.contextStr
     InstanceUrl = context.InstanceUrl;
